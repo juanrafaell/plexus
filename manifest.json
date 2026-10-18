@@ -4,12 +4,13 @@
   "version": "1.0.0",
   "packages": {
     "locomotion": {
+      "name": "Locomotion",
       "kind": "service",
       "version": "0.2.0",
       "path": "services/locomotion",
       "main": "init.lua",
       "files": ["init.lua"]
-    },
+    }
     "vision": {
       "kind": "sensor",
       "version": "0.2.1",
