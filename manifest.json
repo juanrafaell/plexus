@@ -1,0 +1,21 @@
+{
+  "type": "multi-package",
+  "name": "plexus-packages",
+  "version": "1.0.0",
+  "packages": {
+    "locomotion": {
+      "kind": "service",
+      "version": "0.2.0",
+      "path": "services/locomotion",
+      "main": "init.lua",
+      "files": ["init.lua"]
+    },
+    "vision": {
+      "kind": "sensor",
+      "version": "0.2.1",
+      "path": "sensors/vision",
+      "main": "init.lua",
+      "files": ["init.lua"]
+    }
+  }
+}
